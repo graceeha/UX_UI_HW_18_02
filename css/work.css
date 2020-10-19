@@ -12,48 +12,59 @@
     grid-template-columns: 1fr 3fr;
     grid-gap: 1em;
     grid-auto-rows: minmax(200px, auto);
-    border: 3px grey solid;
-    border-radius: 5px;
+    justify-items: stretch;
+    margin: 10px;
 }
 .workGrid2 {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-gap: 1em;
     grid-auto-rows: minmax(200px, auto);
-    border: 3px grey solid;
-    border-radius: 5px;
     justify-items: stretch;
+    margin: 10px;
     
 }
 
 .angelCat {
     display: grid;
     grid-template-areas: col1 row1;
+    border: 3px grey solid;
+    border-radius: 5px;
    }
 .acdescription {
 display: grid;
 grid-template-areas: col2 row1;
+border: 3px grey solid;
+border-radius: 5px;
 
 }
 .bndescription {
     display: grid;
     grid-template-areas: col1 row2;
+    border: 3px grey solid;
+    border-radius: 5px;
    
 }
 .booknest {
     display: grid;
     grid-template-areas: col2 row2;
+    border: 3px grey solid;
+    border-radius: 5px;
   
 }
 
 .boxlunch {
     display: grid;
     grid-template-areas: col1 row3;
+    border: 3px grey solid;
+    border-radius: 5px;
     
 }
 .bldescription {
     display: grid;
     grid-template-areas: col2 row3;
+    border: 3px grey solid;
+    border-radius: 5px;
     
 }
 
