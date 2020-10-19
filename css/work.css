@@ -90,6 +90,15 @@ body {
     display: inline-block;
     padding: 0px 5px;
   }
+
+  a:link {
+    color: white;
+    text-decoration: none;
+  }
+  a:visited {
+    color: white;
+    text-decoration: none;
+  }
   header p {
     display: inline-block;
   }    

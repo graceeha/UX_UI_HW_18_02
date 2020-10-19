@@ -57,7 +57,14 @@ button {
   flex-direction: row;
 }
 
-
+a:link {
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+}
 
 footer {
   background-color: #373738;
