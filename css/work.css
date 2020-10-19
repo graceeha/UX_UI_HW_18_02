@@ -1,0 +1,117 @@
+.workGrid > div{
+    background: #eee;
+    padding: 1em;
+  }
+
+  .workGrid > div:nth-child(odd){
+    background: #ddd;
+  }
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(200px, auto);
+    border: 3px grey solid;
+    border-radius: 5px;
+}
+.workGrid2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(200px, auto);
+    border: 3px grey solid;
+    border-radius: 5px;
+    justify-items: stretch;
+    
+}
+
+.angelCat {
+    display: grid;
+    grid-template-areas: col1 row1;
+   }
+.acdescription {
+display: grid;
+grid-template-areas: col2 row1;
+
+}
+.bndescription {
+    display: grid;
+    grid-template-areas: col1 row2;
+   
+}
+.booknest {
+    display: grid;
+    grid-template-areas: col2 row2;
+  
+}
+
+.boxlunch {
+    display: grid;
+    grid-template-areas: col1 row3;
+    
+}
+.bldescription {
+    display: grid;
+    grid-template-areas: col2 row3;
+    
+}
+
+.view {
+max-width: 300px;
+}
+
+
+
+
+body {
+    margin: 0;
+  }
+  header {
+    background-color: #373738;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: white;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  header p {
+    display: inline-block;
+  }    
+  
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+  }
+  button {
+    padding: 15px;
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+  }
+  
+  
+  footer {
+    background-color: #373738;
+    padding: 5px;
+    color: white;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+  
